@@ -1,14 +1,14 @@
 import React, { useContext, useRef, useState } from 'react'
 import Card from '../components/Card'
-import image1 from "../assets/image1.png"
+import image1 from "../assets/image1.jpg"
 import image2 from "../assets/image2.jpg"
-import image3 from "../assets/authBg.png"
-import image4 from "../assets/image4.png"
-import image5 from "../assets/image5.png"
-import image6 from "../assets/image6.jpeg"
-import image7 from "../assets/image7.jpeg"
+import image3 from "../assets/authBg.jpg"
+import image4 from "../assets/image4.jpg"
+import image5 from "../assets/image5.jpg"
+import image6 from "../assets/image6.jpg"
+import image7 from "../assets/image7.jpg"
 import { RiImageAddLine } from "react-icons/ri";
-import { userDataContext } from '../context/userContext'
+import { userDataContext } from '../context/UserContext'
 import { useNavigate } from 'react-router-dom'
 import { MdKeyboardBackspace } from "react-icons/md";
 function Customize() {
